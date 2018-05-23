@@ -44,3 +44,8 @@ order placement -> order completion (permanent storage)
 ## features for micro-service architecture
 + each team gets one database and one service
 + shared caches are platform provided services that are shared for consistency
+
+# Diagram
+![alt text][diagram]
+
+[diagram]: images/restaurant-delivery.png "services diagram"
