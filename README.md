@@ -46,8 +46,7 @@ order placement -> order completion (permanent storage)
 
 
 ## Diagram
-![alt text][diagram]
-[diagram]: images/restaurant-delivery.png "services diagram"
+![alt text](./images/restaurant-delivery.png "services diagram")
 
 ## Producer/consumer pattern in ...
 - order placement -> order history
