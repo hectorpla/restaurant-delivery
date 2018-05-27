@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+
+  db:
+    image: mysql:5.7.22
+    restart: always
+    environment:
+      MYSQL_DATABASE: restaurant
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_USER: guest
+      MYSQL_PASSWORD: guest
+    ports:
+      - "3306:3306"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "13306:13306"
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"

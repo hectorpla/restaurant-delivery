@@ -23,3 +23,6 @@ this service provides restaurant search (main) and also integrates restaurant me
 + not reasonable to unit test spring boot data JPA, use integration test instead [stack-overflow](https://stackoverflow.com/questions/23435937/how-to-test-spring-data-repositories?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 + integration testing spring boot (http://www.baeldung.com/spring-boot-testing)
 + in test env, use h2 instead to replace mySQL
+
+# About Redis
++ Redis for database, Repository should implemented [example](https://dzone.com/articles/intro-to-redis-with-spring-boot)

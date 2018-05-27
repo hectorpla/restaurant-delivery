@@ -2,6 +2,7 @@ package demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
+import org.springframework.data.redis.core.index.Indexed;
 
 // mind that all dependencies are from javax.persistence
 import javax.persistence.Entity;
@@ -25,6 +26,7 @@ public class Restaurant {
     @GeneratedValue
     private long id;
 
+    @Indexed
     private String name;
 
     private String address;
